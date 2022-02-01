@@ -7,7 +7,7 @@ import numpy as np
 import os
 
 application = Flask(__name__)
-camera = cv2.VideoCapture(0)
+# camera = cv2.VideoCapture(0)
 
 prototxtPath = os.path.dirname(os.path.abspath(
     'application.py')) + '/server/Caffe/SSD_MobileNet_prototxt.txt'
